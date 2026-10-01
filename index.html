@@ -1,48 +1,64 @@
-```html
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mi Proyecto DAM</title>
+    <title>Prueba Práctica</title>
 
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+
+            /* Imagen de fondo */
+            background-image: url("fondo.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            /* Centrar el contenido */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: white;
+            font-family: Arial;
+        }
+
+        /* Contenido principal */
+        .contenido {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        /* Footer */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+            text-align: center;
+
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- Fondo oscuro para mejorar la lectura -->
-    <div class="overlay"></div>
+<div class="contenido">
+    <h1>GIT</h1>
 
-    <!-- Contenido principal -->
-    <main class="contenedor">
+    <p>HOLA MUNDO</p>
 
-        <h1>Mi Proyecto</h1>
+    <p>
+        Bienvenidos al maravilloso mundo de la programación
+    </p>
 
-        <p>
-            Bienvenido a mi página web.
-            Aquí iremos añadiendo las funcionalidades del proyecto.
-        </p>
-
-        <!-- Botones -->
-        <div class="botones">
-
-            <button id="boton1">
-                Botón 1
-            </button>
-
-            <button id="boton2">
-                Botón 2
-            </button>
-
-        </div>
-
-    </main>
-
-    <!-- JavaScript -->
-    <script src="script.js"></script>
-
-</body>
-</html>
-```
+    <button onclick="mostrarMensaje()">Descubre más</button>
+</div>

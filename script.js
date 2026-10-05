@@ -1,4 +1,6 @@
-const btnInfo = document.getElementById("btnInfo");
+function mostrarMensaje() {
+    alert("¡Gracias por visitar mi página!");
+}const btnInfo = document.getElementById("btnInfo");
 const btnContacto = document.getElementById("btnContacto");
 const mensaje = document.getElementById("mensaje");
 

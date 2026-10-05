@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,60 +6,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Prueba Práctica</title>
+    <title>Mi Proyecto DAM</title>
 
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-
-            /* Imagen de fondo */
-            background-image: url("fondo.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-
-            /* Centrar el contenido */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            color: white;
-            font-family: Arial;
-        }
-
-        /* Contenido principal */
-        .contenido {
-            text-align: center;
-            font-size: 30px;
-        }
-
-        /* Footer */
-        footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-
-            text-align: center;
-
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<div class="contenido">
-    <h1>GIT</h1>
+    <main class="contenedor">
 
-    <p>HOLA MUNDO</p>
+        <h1>Mi Proyecto DAM</h1>
 
-    <p>
-        Bienvenidos al maravilloso mundo de la programación
-    </p>
+        <p>
+            Primera versión de mi proyecto web.
+        </p>
 
-    <button onclick="mostrarMensaje()">Descubre más</button>
-</div>
+        <div class="botones">
+           <button id="btnInfo">Información</button>
+           <button id="btnContacto">Contacto</button>
+        </div>
+<div id="mensaje" class="mensaje"></div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
